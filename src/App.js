@@ -4,6 +4,8 @@ import NavBarLogin from './Components/UItily/NavBarLogin'
 import Footer from './Components/UItily/Footer'
 import LoginPage from './Pages/Auth/LoginPage'
 import RegisterPage from './Pages/Auth/RegisterPage'
+import AllCategoryPage from './Pages/Category/AllCategoryPage'
+import AllBrandPage from './Pages/Brand/AllBrandPage'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/allcategory" element={<AllCategoryPage />} />
+          <Route path="/allbrand" element={<AllBrandPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
