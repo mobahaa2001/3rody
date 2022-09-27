@@ -272,11 +272,11 @@ body {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
   font-family: 'Silkscreen', cursive;
   font-family: 'Tajawal', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 23px;
-  text-align: right;
+  text-align: left;
 }
 
 .cat-title {
@@ -332,11 +332,11 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 9px;
-  color: #555550;
+  color: #000;
   font-family: 'IBM Plex Sans Arabic', sans-serif;
   font-family: 'Silkscreen', cursive;
   font-family: 'Tajawal', sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   background-color: #ffffff;
 }
