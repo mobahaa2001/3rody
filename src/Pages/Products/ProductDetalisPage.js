@@ -1,21 +1,17 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import CategoryHeader from '../../Components/Category/CategoryHeader'
-import CardProductsContainer from '../../Components/Products/CardProductsContainer'
-import ProductDetalis from '../../Components/Products/ProductDetalis'
-import RateContainer from '../../Components/Rate/RateContainer'
+import ProductDetalis from '../../Components/Products/ProductDetails'
 
-const ProductDetalisPage = () => {
-    return (
-        <div style={{ minHeight: '670px' }}>
-            <CategoryHeader />
-            <Container>
-                <ProductDetalis />
-                <RateContainer />
-                <CardProductsContainer title="منتجات قد تعجبك" />
-            </Container>
-        </div>
-    )
+const ProductDetailsPage = () => {
+  return (
+    <div style={{ minHeight: '680px' }}>
+      <CategoryHeader />
+      <Container>
+        <ProductDetalis />
+      </Container>
+    </div>
+  )
 }
 
-export default ProductDetalisPage
+export default ProductDetailsPage
