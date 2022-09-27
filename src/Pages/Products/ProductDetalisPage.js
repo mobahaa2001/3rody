@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import CategoryHeader from '../../Components/Category/CategoryHeader'
 import ProductDetalis from '../../Components/Products/ProductDetails'
+import RateContainer from '../../Components/Rate/RateContainer'
 
 const ProductDetailsPage = () => {
   return (
@@ -9,6 +10,7 @@ const ProductDetailsPage = () => {
       <CategoryHeader />
       <Container>
         <ProductDetalis />
+        <RateContainer />
       </Container>
     </div>
   )
