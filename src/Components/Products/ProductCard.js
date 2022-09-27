@@ -3,6 +3,7 @@ import { Card, Col } from 'react-bootstrap'
 import favoff from '../../Data/fav-off.png'
 import rate from '../../Data/rate.png'
 import prod1 from '../../Data/prod1.png'
+import { Link } from 'react-router-dom'
 
 const ProductCard = () => {
   return (
@@ -18,7 +19,9 @@ const ProductCard = () => {
           boxShadow: '0 2px 2px 0 rgba(151,151,151,0.5)',
         }}
       >
-        <Card.Img style={{ height: '228px', width: '100%' }} src={prod1} />
+        <Link to="/products/:id" style={{ textDecoration: 'none' }}>
+          <Card.Img style={{ height: '228px', width: '100%' }} src={prod1} />
+        </Link>
         <div className="d-flex justify-content-end mx-2">
           <img
             src={favoff}
@@ -33,7 +36,8 @@ const ProductCard = () => {
         <Card.Body>
           <Card.Title>
             <div className="card-title">
-              Laptop With 15.6-inch Display Intel Core i5-10300H Processor 8GB Ram{' '}
+              Laptop With 15.6-inch Display Intel Core i5-10300H Processor 8GB
+              Ram{' '}
             </div>
           </Card.Title>
           <Card.Text>
