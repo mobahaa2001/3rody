@@ -11,6 +11,8 @@ import ProductDetailsPage from './Pages/Products/ProductDetailsPage'
 import CartPage from './Pages/Cart/CartPage'
 import PayMethodPage from './Pages/Checkout/PayMethodPage'
 import AdminAllProductPage from './Pages/Admin/AdminAllProductPage'
+import AdminAllOrderspage from './Pages/Admin/AdminAllOrderspage'
+import AdminOrdersDetailspage from './Pages/Admin/AdminOrdersDetailspage'
 
 function App() {
   return (
@@ -29,7 +31,10 @@ function App() {
           <Route path="/cart" element={<CartPage />} />
           <Route path="/order/paymethoud" element={<PayMethodPage />} />
           <Route path="/admin/allproducts" element={<AdminAllProductPage />} />
+          <Route path="/admin/allorders" element={<AdminAllOrderspage />} />
+          <Route path="/admin/orders/:id" element={<AdminOrdersDetailspage />} />
 
+          
         </Routes>
       </BrowserRouter>
       <Footer />
