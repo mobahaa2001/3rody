@@ -15,6 +15,7 @@ import AdminAllOrderspage from './Pages/Admin/AdminAllOrderspage'
 import AdminOrdersDetailspage from './Pages/Admin/AdminOrdersDetailspage'
 import AdminAddBrandpage from './Pages/Admin/AdminAddBrandpage'
 import AdminAddCategoryPage from './Pages/Admin/AdminAddCategoryPage'
+import AdminSubCategoryPage from './Pages/Admin/AdminSubCategoryPage'
 
 function App() {
   return (
@@ -39,8 +40,10 @@ function App() {
             element={<AdminOrdersDetailspage />}
           />
           <Route path="/admin/addbrand" element={<AdminAddBrandpage />} />
-
           <Route path="/admin/addcategory" element={<AdminAddCategoryPage />} />
+          <Route path="/admin/addsubcategory" element={<AdminSubCategoryPage />} />
+
+          
         </Routes>
       </BrowserRouter>
       <Footer />
