@@ -13,6 +13,8 @@ import PayMethodPage from './Pages/Checkout/PayMethodPage'
 import AdminAllProductPage from './Pages/Admin/AdminAllProductPage'
 import AdminAllOrderspage from './Pages/Admin/AdminAllOrderspage'
 import AdminOrdersDetailspage from './Pages/Admin/AdminOrdersDetailspage'
+import AdminAddBrandpage from './Pages/Admin/AdminAddBrandpage'
+import AdminAddCategoryPage from './Pages/Admin/AdminAddCategoryPage'
 
 function App() {
   return (
@@ -32,9 +34,13 @@ function App() {
           <Route path="/order/paymethoud" element={<PayMethodPage />} />
           <Route path="/admin/allproducts" element={<AdminAllProductPage />} />
           <Route path="/admin/allorders" element={<AdminAllOrderspage />} />
-          <Route path="/admin/orders/:id" element={<AdminOrdersDetailspage />} />
+          <Route
+            path="/admin/orders/:id"
+            element={<AdminOrdersDetailspage />}
+          />
+          <Route path="/admin/addbrand" element={<AdminAddBrandpage />} />
 
-          
+          <Route path="/admin/addcategory" element={<AdminAddCategoryPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
