@@ -20,8 +20,9 @@ body {
   height: 80vh;
 }
 .logo {
-  height: 46px;
-  width: 50px;
+  height: 70px;
+  width: 120px;
+  border-radius: 20%;
 }
 .login-img {
   height: 20px;
@@ -552,7 +553,7 @@ body {
   font-size: 16px;
   letter-spacing: 0;
   line-height: 20px;
-  text-align: right;
+  text-align: center;
 }
 .input-form {
   height: 37px;
