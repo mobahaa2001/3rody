@@ -31,13 +31,17 @@ const LoginPage = () => {
         </Col>
 
         <label className="mx-auto my-4">
-          <span style={{ cursor: 'pointer' }} className="text-danger">
-            Login In Admin
-          </span>
+          <Link to="/admin/allproducts" style={{ textDecoration: 'none' }}>
+            <span style={{ cursor: 'pointer' }} className="text-danger">
+              Login In Admin
+            </span>
+          </Link>
 
-          <span style={{ cursor: 'pointer' }} className="text-danger mx-3">
-            Login In User
-          </span>
+          <Link to="/user/allorders" style={{ textDecoration: 'none' }}>
+            <span style={{ cursor: 'pointer' }} className="text-danger mx-3">
+              Login In User
+            </span>
+          </Link>
         </label>
       </Row>
     </Container>
