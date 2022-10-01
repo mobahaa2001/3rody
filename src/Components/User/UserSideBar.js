@@ -15,9 +15,9 @@ const UserSideBar = () => {
             Favorite Products{' '}
           </div>
         </Link>
-        <Link to="/user/allorders" style={{ textDecoration: 'none' }}>
+        <Link to="/user/addresses" style={{ textDecoration: 'none' }}>
           <div className="admin-side-text my-1 border-bottom p-2 mx-auto text-center">
-            Personal Idiomatic{' '}
+            User Addresses{' '}
           </div>
         </Link>
 
