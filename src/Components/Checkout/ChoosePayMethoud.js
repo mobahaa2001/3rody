@@ -13,7 +13,7 @@ const ChoosePayMethoud = () => {
               id="group1"
               type="radio"
               value="Credit/Debit Card"
-              className="mt-2"
+              className=""
             />
             <label className="mx-2" for="group1">
               Credit/Debit Card
@@ -25,12 +25,12 @@ const ChoosePayMethoud = () => {
           <Col xs="12" className="d-flex">
             <input
               name="group"
-              id="group1"
+              id="group2"
               type="radio"
               value="Buy Now, Pay Later"
-              className="mt-2"
+              className=""
             />
-            <label className="mx-2" for="group1">
+            <label className="mx-2" for="group2">
               Buy Now, Pay Later
             </label>
           </Col>
