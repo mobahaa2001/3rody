@@ -22,6 +22,7 @@ import UserFavoriteProductsPage from './Pages/User/UserFavoriteProductPage'
 import UserAddressesPage from './Pages/User/UserAddressesPage'
 import UserAddAddressPage from './Pages/User/UserAddAddressPage'
 import UserEditAddressPage from './Pages/User/UserEditAddressPage'
+import UserProfilePage from './Pages/User/UserProfilePage'
 
 function App() {
   return (
@@ -60,6 +61,9 @@ function App() {
           <Route path="/user/addresses" element={<UserAddressesPage />} />
           <Route path="/user/add-address" element={<UserAddAddressPage />} />
           <Route path="/user/edit-address" element={<UserEditAddressPage />} />
+          <Route path="/user/profile" element={<UserProfilePage />} />
+
+          
         </Routes>
       </BrowserRouter>
       <Footer />
