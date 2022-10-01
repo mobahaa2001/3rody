@@ -21,7 +21,7 @@ const UserSideBar = () => {
           </div>
         </Link>
 
-        <Link to="/user/allorders" style={{ textDecoration: 'none' }}>
+        <Link to="/user/profile" style={{ textDecoration: 'none' }}>
           <div className="admin-side-text my-1 border-bottom p-2 mx-auto text-center">
             Profile{' '}
           </div>
